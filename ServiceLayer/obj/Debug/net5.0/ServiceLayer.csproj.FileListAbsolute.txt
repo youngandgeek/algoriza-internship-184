@@ -1,0 +1,17 @@
+E:\ServiceLayer\bin\Debug\net5.0\ServiceLayer.deps.json
+E:\ServiceLayer\bin\Debug\net5.0\ServiceLayer.dll
+E:\ServiceLayer\bin\Debug\net5.0\ServiceLayer.pdb
+E:\ServiceLayer\bin\Debug\net5.0\DomainLayer.dll
+E:\ServiceLayer\bin\Debug\net5.0\RepositoryLayer.dll
+E:\ServiceLayer\bin\Debug\net5.0\RepositoryLayer.pdb
+E:\ServiceLayer\bin\Debug\net5.0\DomainLayer.pdb
+E:\ServiceLayer\obj\Debug\net5.0\ServiceLayer.csproj.AssemblyReference.cache
+E:\ServiceLayer\obj\Debug\net5.0\ServiceLayer.GeneratedMSBuildEditorConfig.editorconfig
+E:\ServiceLayer\obj\Debug\net5.0\ServiceLayer.AssemblyInfoInputs.cache
+E:\ServiceLayer\obj\Debug\net5.0\ServiceLayer.AssemblyInfo.cs
+E:\ServiceLayer\obj\Debug\net5.0\ServiceLayer.csproj.CoreCompileInputs.cache
+E:\ServiceLayer\obj\Debug\net5.0\ServiceLayer.csproj.CopyComplete
+E:\ServiceLayer\obj\Debug\net5.0\ServiceLayer.dll
+E:\ServiceLayer\obj\Debug\net5.0\refint\ServiceLayer.dll
+E:\ServiceLayer\obj\Debug\net5.0\ServiceLayer.pdb
+E:\ServiceLayer\obj\Debug\net5.0\ref\ServiceLayer.dll

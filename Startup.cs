@@ -1,15 +1,11 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using RepositoryLayer;
 
 namespace algoriza_internship_184
 {
@@ -25,12 +21,23 @@ namespace algoriza_internship_184
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+           
+            // Configure DbContext
+            services.AddDbContext<DbConClass>(options =>
+            {
+                options.UseSqlServer("Data Source=Atty;Initial Catalog=AlgorizaDemo;Integrated Security=True");
+            });
+
+            // Register custom repositories
+            services.AddScoped<IPatientRepository, PatientRepository>();
+
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "algoriza_internship_184", Version = "v1" });
             });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -46,6 +53,7 @@ namespace algoriza_internship_184
             app.UseRouting();
 
             app.UseAuthorization();
+          
 
             app.UseEndpoints(endpoints =>
             {

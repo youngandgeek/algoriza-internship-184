@@ -23,11 +23,11 @@ namespace algoriza_internship_184
         {
            
             // Configure DbContext
-            services.AddDbContext<DbConClass>(options =>
+        /**    services.AddDbContext<DbConClass>(options =>
             {
                 options.UseSqlServer("Data Source=Atty;Initial Catalog=AlgorizaDemo;Integrated Security=True");
             });
-
+        **/
             // Register custom repositories
             services.AddScoped<IPatientRepository, PatientRepository>();
 

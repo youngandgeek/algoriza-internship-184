@@ -12,7 +12,9 @@ Specifically, I have been facing difficulties in understanding and implementing 
 
 To demonstrate my commitment and efforts, I have attached a demo showcasing the topics I have been diligently studying. It is important to note that I have been cautious about not merely copying code without a deeper comprehension, as I believe in truly understanding the principles before implementation.
 Repository architecture: https://github.com/youngandgeek/DI
+
 Complete Asp.netCore Web App: https://github.com/youngandgeek/ModelDbCon
+
 lifecycle of how to create one Asp.net core web one page App:https://github.com/youngandgeek/OneWebPage
 
 

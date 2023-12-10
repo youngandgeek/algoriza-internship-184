@@ -11,9 +11,15 @@ The primary area that has posed a significant challenge for me is the understand
 Specifically, I have been facing difficulties in understanding and implementing the Identity framework. Despite dedicating substantial effort over the past two weeks, I have not been able to achieve the level of understanding I aimed for. I have tried to progress without incorporating Identity and user registration, but it resulted in a futile use of time.
 
 To demonstrate my commitment and efforts, I have attached a demo showcasing the topics I have been diligently studying. It is important to note that I have been cautious about not merely copying code without a deeper comprehension, as I believe in truly understanding the principles before implementation.
+
+
 Repository architecture: https://github.com/youngandgeek/DI
 
+
+
 Complete Asp.netCore Web App: https://github.com/youngandgeek/ModelDbCon
+
+
 
 lifecycle of how to create one Asp.net core web one page App:https://github.com/youngandgeek/OneWebPage
 
